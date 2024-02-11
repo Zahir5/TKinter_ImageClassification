@@ -3,6 +3,9 @@ from tkinter import filedialog
 from PIL import Image, ImageTk
 from trained_model import ImageClassifier
 
+# Github link for this part of the assignment is following
+# https://github.com/Zahir5/TKinter_ImageClassification
+
 class GUIComponent:
     # Class variable to hold the ImageClassifier instance
     classifier = ImageClassifier()

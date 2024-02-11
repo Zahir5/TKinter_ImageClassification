@@ -2,6 +2,11 @@ import torch
 from torchvision import models, transforms
 from PIL import Image
 
+
+# Github link for this part of the assignment is following
+# https://github.com/Zahir5/TKinter_ImageClassification
+
+
 class ImageClassifier:
     def __init__(self, model_name="resnet101", labels_path="imagenet_classes.txt"):
         # Loading the model
